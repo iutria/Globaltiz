@@ -19,6 +19,10 @@
     transform: rotate(10deg);
     z-index: -1;
 }
+#contactanos h3{
+    font-size: 50px !important;
+    font-family: archivoBlack !important;
+}
 #contactanos div{
     display: flex;
     align-items: center;
@@ -30,8 +34,10 @@
     color: #CEE4F2;
     font-size: 25px;
     text-align: end;
+    margin-right: 70px;
 }
 .telefonos{
     display: flex;
     justify-content: end;
+    flex-direction: column;
 }

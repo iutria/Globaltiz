@@ -27,13 +27,13 @@ window.addEventListener("scroll",function(){
     
     document.querySelector('nav').style.background = window.pageYOffset >= 50 ? '#0577BE': 'transparent';
     
-    const red  = document.getElementById('redes');
+    // const red  = document.getElementById('redes');
 
-    if(window.pageYOffset>5800){
-        red.style.right = '-100px'
-    }else{
-        red.style.right = '0px';
-    }
+    // if(window.pageYOffset>5800){
+    //     red.style.right = '-100px'
+    // }else{
+    //     red.style.right = '0px';
+    // }
 
     
 })
