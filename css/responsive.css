@@ -1,0 +1,122 @@
+@media screen and (max-width:1200px) {
+    .elemento{
+        display: none;
+    }
+}
+@media screen and (max-width:1024px) {
+    .texto{
+        width: 70% !important;
+        padding: 25px !important;
+    }
+    .imagen{
+        right: 0 !important;
+    }
+    #que-hecemos{
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+        grid-template-rows: repeat(1,1fr) !important;
+    }
+    #que-hecemos h3{
+        color: #011126 !important;
+    }
+    #que-hecemos h3::after{
+        display: none;
+    }
+    #que-hecemos div{
+        padding: 20px;
+    }
+    #que-hecemos > div{
+        padding-right: 70px !important;
+    }
+}
+@media screen and (max-width:768px) {
+    h1{
+        font-size: 30px !important;
+    }
+    h3{
+        font-size: 30px !important;
+    }
+    h2{
+        font-size: 20px !important;
+    }
+    #que-hecemos div a{
+        font-size: 20px !important;
+    }
+    #que-hecemos > div{
+        padding: 20px !important;
+    }
+    .texto p{
+        font-size: 15px !important;
+        margin-bottom: 50px !important;
+    }
+    .hamburgesa{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+    .offcanvas{
+        width: 80% !important;
+    }
+    #Incio{
+        justify-content: center !important;
+    }
+    .texto{
+        padding: 25px !important;
+        padding-bottom: 50px !important;
+        background: rgba(206, 228, 242, 0.5) !important;
+        width: 100vw !important;
+    }
+    #contactanos::after{
+        transform: rotate(0deg) !important;
+        background: transparent;
+        background: #011126;
+        height: 50%;
+        left: 0;
+        top: 50% !important;
+        z-index: -1;
+    }
+    #contactanos{
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+    }
+    .celular-movil{
+        position: relative;
+        height: 500px !important;
+    }
+    #desarrollo-web-movil > div > p{
+        margin-bottom: 50px !important;
+    }
+    .web-movil{
+        margin-top: 50px !important;
+        padding: 0px !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .web-movil i{
+        display: none;
+    }
+    .item{
+        width: 100%;
+    }
+    .item-3{
+        margin-right: 0 !important;
+    }
+    .item-4{
+        margin-left: 0px !important;
+    }
+    .item i{
+        position: relative !important;
+        top: 0px !important;
+        left: 0px !important;
+        right: 0px !important;
+    }
+    #clientes{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .detalles{
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+    }
+}
