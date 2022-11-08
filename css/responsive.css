@@ -19,35 +19,20 @@
         grid-template-columns: repeat(1,1fr) !important;
         grid-template-rows: repeat(1,1fr) !important;
     }
-    #que-hecemos h3{
-        color: #011126 !important;
-    }
-    #que-hecemos h3::after{
-        display: none;
-    }
-    #que-hecemos div{
-        padding: 20px;
-    }
-    #que-hecemos > div{
-        padding-right: 70px !important;
-    }
-    
 }
 @media screen and (max-width:768px) {
     h1{
         font-size: 30px !important;
     }
-    h3{
+    /* h3{
         font-size: 30px !important;
+    } */
+    .categorias{
+        /* transform: scale(0.5); */
+        background: red;
     }
     h2{
         font-size: 20px !important;
-    }
-    #que-hecemos div a{
-        font-size: 20px !important;
-    }
-    #que-hecemos > div{
-        padding: 20px !important;
     }
     .texto p{
         font-size: 15px !important;
@@ -88,16 +73,6 @@
         align-items: center !important;
         margin-right: 0px !important;
     }
-    /* .celular-movil{
-        position: relative;
-        height: 500px !important;
-    } */
-    /* #desarrollo-web-movil > div > p{
-        margin-bottom: 50px !important;
-    } */
-    /* #desarrollo-web-movil{
-        transform: scale(0.5);
-    } */
     .web-movil{
         transform: scale(0.8) translateY(-100px);
         padding: 0px !important;
