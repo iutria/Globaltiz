@@ -1,6 +1,8 @@
 :root{
     --negro: #011126;
     --blanco: #CEE4F2;
+    --gris: #3C4856;
+    --verde: #1abc9c;
 }
 *{
     margin: 0;
@@ -107,9 +109,6 @@ ul li a:hover{
 h3{
     text-align: center;
 }
-
-
-
 .detalles{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

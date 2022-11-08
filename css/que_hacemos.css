@@ -1,10 +1,73 @@
 
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-categoria{
+    width: 250px;
+    height: 300px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    box-shadow:  20px 20px 60px #bebebe;
+    position: relative;
+    overflow: hidden;
+}
+.item-categoria::after{
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: -125px;
+    right: -125px;
+    border-radius: 100%;
+    background: var(--gris);
+    opacity: 0.1;
+}
+
+.item-categoria i{
+    font-size: 50px !important;
+    margin-bottom: 10px;
+}
+.item-categoria p{
+    font-size: 15px !important;
+    color: var(--gris);
+}
+.item-categoria:hover{
+    background: var(--verde);
+    color: white !important;
+}
+.item-categoria:hover>p{
+    color: white !important;
+}
+.fila-categoria-1{
+    align-self: flex-start;
+}
+.fila-categoria-2{
+    align-self: flex-end;
+}
+.fila-categoria-3{
+    align-self: flex-start;
+}
 #que-hecemos{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
+}
+#que-hecemos > h3 > div{
+    font-family: archivoBlack !important;
+    color: var(--verde) !important;
 }
 #que-hecemos h3{
     font-family: archivoBlack !important;
@@ -13,54 +76,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--blanco) !important;
+    color: var(--gris) !important;
 }
-#que-hecemos h3::after{
-    content: '';
-    width: 100vw;
-    height: 100vw;
-    background: #1abc9c;
-    position: absolute;
-    border-radius: 100%;
-    right: 0;
-    z-index: -3;
-}
-#que-hecemos > div{
-    padding: 20px;
-    padding-right: 100px !important;
-}
-.fw-bold a{
+/* .fw-bold a{
     color: #1abc9c !important;
     font-size: 30px;
     text-decoration: none;
-}
-/* #que-hecemos div{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-#que-hecemos div a{
-    text-decoration: none;
-    color: var(--negro);
-    font-family: conforta;
-    font-size: 30px;
-    margin: 20px;
-}
-#que-hecemos div a:hover{
-    color: #1abc9c;
-}
-
-#que-hecemos div a i{
-    width: 20px;
-    height: 20px;
-    color: #1abc9c;
-    border: 3px solid #1abc9c;
-    padding: 15px;
-    border-radius: 100%;
 } */
-
-
 .web-movil{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -74,6 +96,7 @@
     background-size: cover;
 	background-repeat:no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
 
 }
 #desarrollo-web-movil > div{
@@ -87,6 +110,7 @@
     font-family: comforta !important;
     font-size: 30px !important;
     margin-bottom: 150px !important;
+    text-align: center;
 }
 .celular-movil{
     position: absolute;

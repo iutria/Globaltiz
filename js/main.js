@@ -5,7 +5,7 @@ const urlInstagram = 'https://www.instagram.com/globaltiz_it';
 
 const paginas = `
 <ul class="nav justify-content-end">
-    <li class="nav-item">
+    <li class="nav-item" >
         <a class="nav-link" href="#que-hecemos">¿Que hacemos?</a> 
     </li>
     <li class="nav-item">

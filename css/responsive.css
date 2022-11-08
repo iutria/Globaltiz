@@ -2,6 +2,9 @@
     .elemento{
         display: none;
     }
+    .categorias{
+        transform: scale(0.7);
+    }
 }
 @media screen and (max-width:1024px) {
     .texto{
@@ -28,6 +31,7 @@
     #que-hecemos > div{
         padding-right: 70px !important;
     }
+    
 }
 @media screen and (max-width:768px) {
     h1{
@@ -84,35 +88,47 @@
         align-items: center !important;
         margin-right: 0px !important;
     }
-    .celular-movil{
+    /* .celular-movil{
         position: relative;
         height: 500px !important;
-    }
-    #desarrollo-web-movil > div > p{
+    } */
+    /* #desarrollo-web-movil > div > p{
         margin-bottom: 50px !important;
-    }
+    } */
+    /* #desarrollo-web-movil{
+        transform: scale(0.5);
+    } */
     .web-movil{
-        margin-top: 50px !important;
+        transform: scale(0.8) translateY(-100px);
         padding: 0px !important;
-        grid-template-columns: repeat(1, 1fr) !important;
-    }
-    .web-movil i{
-        display: none;
+        gap: 15px !important;
+        justify-content: space-between;
     }
     .item{
-        width: 100%;
+        font-size: 12px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: calc(100vw * 0.50);
+        background: rgba(1, 17, 38,0.9);
+    }
+    .izquierda{
+        right: 0px !important;
+    }
+    .derecha{
+        left: 0px !important;
+    }
+    .item i{
+        position: relative;
+        align-self: center;
+        font-size: 20px;
     }
     .item-3{
-        margin-right: 0 !important;
+        margin-right: 0px !important;
     }
     .item-4{
         margin-left: 0px !important;
-    }
-    .item i{
-        position: relative !important;
-        top: 0px !important;
-        left: 0px !important;
-        right: 0px !important;
     }
     #clientes{
         display: grid;
