@@ -2,9 +2,6 @@
     .elemento{
         display: none;
     }
-    .categorias{
-        transform: scale(0.7);
-    }
 }
 @media screen and (max-width:1024px) {
     .texto{
@@ -14,22 +11,13 @@
     .imagen{
         right: 0 !important;
     }
-    #que-hecemos{
-        display: grid;
-        grid-template-columns: repeat(1,1fr) !important;
-        grid-template-rows: repeat(1,1fr) !important;
+    .titulo{
+        padding: 10px;
     }
 }
 @media screen and (max-width:768px) {
     h1{
         font-size: 30px !important;
-    }
-    /* h3{
-        font-size: 30px !important;
-    } */
-    .categorias{
-        /* transform: scale(0.5); */
-        background: red;
     }
     h2{
         font-size: 20px !important;
@@ -114,4 +102,43 @@
         grid-template-columns: repeat(1, 1fr) !important;
         grid-template-rows: repeat(2, 1fr) !important;
     }
+    
+    .titulo{
+        width: 100%;
+        align-items: center;
+    }
+    .titulo > h3,.titulo > p{
+        text-align: center;
+    }
+    .categorias{
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:480px) {
+    .categorias{
+        width: 100%;
+        justify-content: center;
+    }
+    .categorias{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .fila-categoria-1{
+        width: 100%;
+        align-self: center;
+    }
+    .fila-categoria-2{
+        width: 100%;
+        align-self: center;
+    }
+    .fila-categoria-3{
+        width: 100%;
+        align-self: center;
+    }
+}
+@media screen and (max-width:32px) {
+
 }

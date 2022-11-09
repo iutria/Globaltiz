@@ -1,14 +1,47 @@
-
-
-.categorias{
+#que-hacemos{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.titulo{
+    width: 30%;
+    padding-left: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.titulo > h3{
+    font-family: archivoBlack !important;
+    display: flex;
+    text-align: end;
+}
+.titulo > p{
+    font-size: 15px !important;
+    text-align: end;
+}
+.categorias{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+.fila-categoria-1{
+    width: 30%;
+    align-self: center;
+}
+.fila-categoria-2{
+    width: 30%;
+    align-self: center;
+}
+.fila-categoria-3{
+    width: 30%;
+    align-self: center;
 }
 .item-categoria{
-    width: 250px;
-    height: 300px;
+    width: 95%;
     background: white;
     display: flex;
     justify-content: center;
@@ -17,8 +50,7 @@
     border-radius: 10px;
     flex-direction: column;
     text-decoration: none;
-    margin: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     padding: 10px;
     background: white;
     box-shadow:  20px 20px 60px #bebebe;
@@ -36,7 +68,6 @@
     background: var(--gris);
     opacity: 0.1;
 }
-
 .item-categoria i{
     font-size: 50px !important;
     margin-bottom: 10px;
@@ -52,37 +83,6 @@
 .item-categoria:hover>p{
     color: white !important;
 }
-.fila-categoria-1{
-    align-self: flex-start;
-}
-.fila-categoria-2{
-    align-self: flex-end;
-}
-.fila-categoria-3{
-    align-self: flex-start;
-}
-#que-hecemos{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    min-height: 100vh;
-}
-#que-hecemos > h3 > div{
-    font-family: archivoBlack !important;
-    color: var(--verde) !important;
-}
-#que-hecemos h3{
-    font-family: archivoBlack !important;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--gris) !important;
-}
-/* .fw-bold a{
-    color: #1abc9c !important;
-    font-size: 30px;
-    text-decoration: none;
-} */
 
 
 
@@ -96,12 +96,12 @@
     padding: 50px;
 }
 #desarrollo-web-movil{
+    padding-top: 70px !important;
     background: url('../img/geometric-g9bf38f25b_1920.jpg');
     background-size: cover;
 	background-repeat:no-repeat;
     background-attachment: fixed;
     overflow: hidden;
-
 }
 #desarrollo-web-movil > div{
     display: flex;
