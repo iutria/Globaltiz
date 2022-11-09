@@ -1,7 +1,8 @@
 
 const urlWhatsapp = 'https://web.whatsapp.com/';
 const urlFacebook = 'https://www.facebook.com/globaltiz';
-const urlInstagram = 'https://www.instagram.com/globaltiz_it';
+const urlInstagram = 'https://www.instagram.com/globaltiz/';
+
 
 const paginas = `
 <ul class="nav justify-content-end">

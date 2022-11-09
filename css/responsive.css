@@ -10,6 +10,7 @@
     }
     .imagen{
         right: 0 !important;
+        bottom: 0 !important;
     }
     .titulo{
         padding: 10px;
@@ -113,6 +114,10 @@
     .categorias{
         width: 100%;
         justify-content: center;
+    }
+    .celular-movil{
+        width: 80%;
+        height: auto !important;
     }
 }
 @media screen and (max-width:480px) {
