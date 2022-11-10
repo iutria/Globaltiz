@@ -156,6 +156,7 @@
     .celular-movil{
         width: 80%;
         height: auto;
+        /* bottom: 0 !important; */
     }
     .db-list{
         grid-template-columns: repeat(2, 1fr);
