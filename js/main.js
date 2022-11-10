@@ -27,16 +27,6 @@ const redes = `
 window.addEventListener("scroll",function(){
     
     document.querySelector('nav').style.background = window.pageYOffset >= 50 ? '#0577BE': 'transparent';
-    
-    // const red  = document.getElementById('redes');
-
-    // if(window.pageYOffset>5800){
-    //     red.style.right = '-100px'
-    // }else{
-    //     red.style.right = '0px';
-    // }
-
-    
 })
 
 /**
@@ -44,7 +34,7 @@ window.addEventListener("scroll",function(){
  */
 const offcanvasbody = document.querySelector('.offcanvas-body');
 const menu = document.getElementById('menu');
-offcanvasbody.innerHTML = paginas;
+offcanvasbody.innerHTML = paginas + '<div class="reds">' + redes + '</div>';
 menu.innerHTML = paginas;
 
 
