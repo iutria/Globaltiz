@@ -102,6 +102,7 @@
 	background-repeat:no-repeat;
     background-attachment: fixed;
     overflow: hidden;
+    width: 100%;
 }
 #desarrollo-web-movil > div{
     display: flex;
@@ -112,7 +113,7 @@
 #desarrollo-web-movil > div > p{
     color: white;
     font-family: archivoBlack !important;
-    margin-bottom: 150px !important;
+    margin-bottom: 70px !important;
     text-align: center;
 }
 .celular-movil{
@@ -168,6 +169,8 @@
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: flex-start;
+    overflow: hidden;
+    width: 100%;
 }
 #servicios > div{
     height: 100%;
