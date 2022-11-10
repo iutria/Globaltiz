@@ -110,16 +110,14 @@
     flex-direction: column;
 }
 #desarrollo-web-movil > div > p{
-    color: #17E0FF;
-    font-family: comforta !important;
-    font-size: 30px !important;
+    color: white;
+    font-family: archivoBlack !important;
     margin-bottom: 150px !important;
     text-align: center;
 }
 .celular-movil{
     position: absolute;
     height: 80%;
-    
 }
 .item{
     height: 200px;
@@ -162,4 +160,30 @@
 }
 .item-4{
     margin-left: -50px;
+}
+
+
+#servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+}
+#servicios > div{
+    height: 100%;
+    padding: 70px;
+}
+#servicios h3{
+    font-size: 20px !important;
+    font-family: archivoBlack !important;
+    padding-bottom: 20px;    
+}
+#servicios ul li{
+    text-decoration: none;
+    font-size: 15px !important;
+    /* list-style: none; */
+}
+.servicios-2{
+    background: var(--gris); 
+    color: var(--blanco);
 }

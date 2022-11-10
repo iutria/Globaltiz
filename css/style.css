@@ -140,17 +140,15 @@ h3{
 }
 
 #e-commerce{
-    background: #0072CC !important;
+    background: var(--blanco) !important;
 }
 .detalles h3{
     color: var(--blanco);
-}
-#bases-de-datos{
-    background: #17E0FF;
 }
 #analitica-de-datos{
     background: #011126;
 }
 #cloud-computing{
-    background: #17E0FF;
+    background: var(--verde);
+    color: black;
 }
