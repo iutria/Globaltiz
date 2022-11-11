@@ -1,5 +1,5 @@
 
-const urlWhatsapp = 'https://web.whatsapp.com/';
+const urlWhatsapp = 'https://api.whatsapp.com/send/?phone=17869330019&text&type=phone_number&app_absent=0';
 const urlFacebook = 'https://www.facebook.com/globaltiz';
 const urlInstagram = 'https://www.instagram.com/globaltiz/';
 

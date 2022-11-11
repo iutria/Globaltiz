@@ -154,8 +154,9 @@
         justify-content: center;
     }
     .celular-movil{
-        width: 80%;
-        height: auto;
+        height: 80%;
+        width: auto;
+        transform: translateY(-100px);
         /* bottom: 0 !important; */
     }
     .db-list{
@@ -180,6 +181,19 @@
     .servicios-3{
         grid-row: 3;
         width: 100%;  
+    }
+    #otros-lenguajes{
+        height: auto !important;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    #otros-lenguajes > div{
+        padding: 0px !important;
+        border-top: 1px solid var(--blanco);
+    }
+    #otros-lenguajes > div > img{
+        height: 150px;
+        width: auto !important;
     }
 }
 @media screen and (max-width:480px) {
