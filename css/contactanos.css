@@ -28,6 +28,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-size: 15px !important;
 }
 .info-contacto{
     align-items: flex-end !important;
@@ -39,10 +40,11 @@
 }
 .telefonos{
     display: flex;
-    justify-content: end;
     flex-direction: column;
 }
 .telefonos a{
+    width: 100%;
+    text-align: end;
     text-decoration: none;
     color: #CEE4F2;
 }

@@ -93,8 +93,10 @@
         font-size: 25px !important;
     }
     #contactanos  a,p,div{
+        text-align: center;
         padding: 5px;
         font-size: 15px !important;
+        width: 100%;
     }
     .info-contacto{
         align-items: center !important;
