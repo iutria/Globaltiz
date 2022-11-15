@@ -7,13 +7,13 @@ const urlInstagram = 'https://www.instagram.com/globaltiz/';
 const paginas = `
 <ul class="nav justify-content-end">
     <li class="nav-item" >
-        <a class="nav-link" href="#que-hacemos">¿Que hacemos?</a> 
+        <a class="nav-link txt-que-hacemos" href="#que-hacemos">¿Que hacemos?</a> 
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#clientes">Clientes</a>
+        <a class="nav-link txt-clientes" href="#clientes">Clientes</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#contactanos">Contactanos</a>
+        <a class="nav-link txt-contactanos" href="#contactanos">Contactanos</a>
     </li>
 </ul>
 `;

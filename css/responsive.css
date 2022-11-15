@@ -1,7 +1,5 @@
 @media screen and (max-width:1200px) {
-    .elemento{
-        display: none;
-    }
+    
 }
 @media screen and (max-width:1024px) {
     .texto{
@@ -20,6 +18,9 @@
     }
 }
 @media screen and (max-width:768px) {
+    .offcanvas-body .reds{
+        display: none;
+    }
     #servicios > div{
         padding: 20px;
     }
@@ -165,6 +166,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
+    
 }
 @media screen and (max-width:650px) {
     #servicios{
