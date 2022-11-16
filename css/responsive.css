@@ -23,6 +23,7 @@
     }
     #servicios > div{
         padding: 20px;
+        text-align: start;
     }
     .servicios-1{
         grid-column: 1 / 3;
