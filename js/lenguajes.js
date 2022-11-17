@@ -67,11 +67,11 @@ btnLenguaje.addEventListener(
     ()=>{
         let lenguaje = btnLenguaje.innerHTML.trim();
 
-        if(lenguaje == "En"){
+        if(lenguaje == "Es"){
             location.reload();
         }
 
-        btnLenguaje.innerHTML = 'En';
+        btnLenguaje.innerHTML = 'Es';
 
         for (let i = 0; i < traduccion.length; i++) {
             let element = document.querySelectorAll(traduccion[i][0]);
