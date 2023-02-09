@@ -22,7 +22,7 @@
     flex-direction: column;
 }
 #clientes div img{
-    width: 70%;
+    width: 50%;
 }
 .sonda,.pya{
     background: rgba(255, 255, 255, 0.1);
